@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Crafted | Shopify Website Agency</title>
+  <meta name="description" content="Pixel Crafted builds complete Shopify websites for just ₹999. 700+ clients. 3Cr+ sales generated." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0b0b0b;color:#fff;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+
+header{position:fixed;top:0;left:0;width:100%;padding:20px 8%;display:flex;justify-content:space-between;align-items:center;z-index:50;background:rgba(0,0,0,0.4);backdrop-filter:blur(8px)}
+.logo img{height:42px}
+.btn{background:#7c5cff;padding:12px 24px;border-radius:8px;font-weight:600}
+
+/* SCROLL ZONE */
+.scroll-zone{height:300vh;background:#000;position:relative}
+.sticky-text{position:sticky;top:0;height:100vh;display:flex;align-items:center;justify-content:center;perspective:1400px}
+
+.book{position:relative;width:100%;height:240px;transform-style:preserve-3d}
+.page{position:absolute;width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:clamp(48px,9vw,120px);font-weight:800;text-transform:uppercase;backface-visibility:hidden}
+.page:nth-child(1){transform:rotateX(0deg)}
+.page:nth-child(2){transform:rotateX(-120deg)}
+.page:nth-child(3){transform:rotateX(-240deg)}
+.page span{background:linear-gradient(90deg,#9b5cff,#c77dff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0 40px 120px rgba(155,92,255,0.5)}
+
+section{padding:100px 8%;background:#000}
+.card{background:#141414;padding:32px;border-radius:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+footer{padding:30px 8%;text-align:center;color:#777}
+
+/* Floating WhatsApp */
+.wa-float{position:fixed;bottom:24px;right:24px;background:#25D366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;z-index:999;box-shadow:0 10px 30px rgba(0,0,0,0.4);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,0.6)}70%{box-shadow:0 0 0 20px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="https://i.ibb.co/FLszhnmr/Red-Black-Typography-Nine-Brand-Logo-1.png" alt="Pixel Crafted Logo">
+  </div>
+  <a href="https://wa.me/918530869638?text=Hello%20Pixel%20Crafted%2C%20I%20have%20a%20query%20regarding%20Shopify%20website%20development%20and%20pricing." target="_blank" class="btn">Get Started</a>
+</header>
+
+<!-- SCROLL CONTAINER HERO -->
+<section class="scroll-zone">
+  <div class="sticky-text">
+    <div class="book" id="book">
+      <div class="page"><span>Premium Design</span></div>
+      <div class="page"><span>Full Customization</span></div>
+      <div class="page"><span>Only ₹999</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- REST CONTENT -->
+<section>
+  <h2 style="font-size:42px;margin-bottom:40px">What We Do</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://i.ibb.co/vxP19SLB/Chat-GPT-Image-Jan-15-2026-12-17-33-PM.png" alt="Shopify Development" style="width:100%;border-radius:14px;margin-bottom:18px;box-shadow:0 20px 60px rgba(0,0,0,0.6)">
+      <h3>Shopify Development</h3><p style="color:#bbb;margin-top:10px">High-converting Shopify stores built to scale.</p></div>
+    <div class="card">
+      <img src="https://i.ibb.co/Mk47J1zz/Chat-GPT-Image-Jan-15-2026-12-21-07-PM.png" alt="Full Customization" style="width:100%;border-radius:14px;margin-bottom:18px;box-shadow:0 20px 60px rgba(0,0,0,0.6)">
+      <h3>Full Customization</h3><p style="color:#bbb;margin-top:10px">Themes, layouts, checkout & UX fully customised.</p></div>
+    <div class="card">
+      <img src="https://i.ibb.co/C3mF6y4w/Chat-GPT-Image-Jan-15-2026-12-25-56-PM.png" alt="Branding" style="width:100%;border-radius:14px;margin-bottom:18px;box-shadow:0 20px 60px rgba(0,0,0,0.6)">
+      <h3>Branding</h3><p style="color:#bbb;margin-top:10px">Logos, banners & creatives that actually sell.</p></div>
+  </div>
+</section>
+
+<section style="background:#101010">
+  <h2 style="font-size:42px;margin-bottom:40px">Why Pixel Crafted?</h2>
+  <div class="grid">
+    <div class="card"><span style="color:#9b5cff;font-size:22px;margin-right:8px">💜</span>700+ Clients Served</div>
+    <div class="card"><span style="color:#9b5cff;font-size:22px;margin-right:8px">💲</span>₹3Cr+ Revenue Generated</div>
+    <div class="card"><span style="color:#9b5cff;font-size:22px;margin-right:8px">⏱️</span>Fast Delivery</div>
+    <div class="card"><span style="color:#9b5cff;font-size:22px;margin-right:8px">🤝</span>Beginner Friendly Support</div>
+  </div>
+</section>
+
+<section>
+  <h2 style="font-size:42px;margin-bottom:20px">Simple Pricing</h2>
+  <div class="card" style="max-width:420px">
+    <h3 style="font-size:48px;color:#9b5cff">₹999</h3>
+    <p style="color:#bbb;margin:14px 0">One-time payment. No hidden charges.</p>
+    <ul style="line-height:1.8;color:#ccc">
+      <li>✔ Complete Shopify Store</li>
+      <li>✔ Logo & Banners</li>
+      <li>✔ Payment & App Setup</li>
+      <li>✔ Mobile Optimised</li>
+    </ul>
+  </div>
+</section>
+
+<section style="background:#0b0b0b">
+  <h2 style="font-size:42px;margin-bottom:40px;text-align:center">Results from our clients</h2>
+  <div class="grid">
+    <div class="card"><img src="https://i.ibb.co/FkNsWYSG/download-1.jpg" style="width:100%;border-radius:16px"></div>
+    <div class="card"><img src="https://i.ibb.co/rRHJZ4p4/download.jpg" style="width:100%;border-radius:16px"></div>
+    <div class="card"><img src="https://i.ibb.co/qLTFX0hK/481-000-in-90-Days-Without-a-Single-Ad.jpg" style="width:100%;border-radius:16px"></div>
+  </div>
+</section>
+
+<section id="contact" style="background:#000">
+  <div class="card">
+    <h2 style="font-size:40px">Ready to launch your store?</h2>
+    <p style="margin:16px 0;color:#ccc">Chat with us directly on WhatsApp. We reply fast.</p>
+    <a class="btn" target="_blank" href="https://wa.me/918530869638?text=Hello%20Pixel%20Crafted%2C%20I%20have%20a%20query%20and%20want%20to%20build%20a%20Shopify%20store.">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<section>
+  <h2 style="font-size:42px;margin-bottom:40px">Client Reviews</h2>
+  <div class="grid">
+    <div class="card"><span style="color:#f5c542;font-size:22px">★★★★★</span><p style="margin-top:12px;color:#bbb">Pixel Crafted built my store in 2 days. Clean design and good support. Totally worth ₹999.</p></div>
+    <div class="card"><span style="color:#f5c542;font-size:22px">★★★★☆</span><p style="margin-top:12px;color:#bbb">Very professional team. My Shopify store looks premium now.</p></div>
+    <div class="card"><span style="color:#f5c542;font-size:22px">★★★★★</span><p style="margin-top:12px;color:#bbb">Generated sales in first week itself. Smooth experience.</p></div>
+    <div class="card"><span style="color:#f5c542;font-size:22px">★★★★☆</span><p style="margin-top:12px;color:#bbb">Good value for money. Branding and banners were on point.</p></div>
+  </div>
+</section>
+
+</div>
+
+<footer>© 2026 Pixel Crafted</footer>
+
+<script>
+const book = document.getElementById('book');
+const zone = document.querySelector('.scroll-zone');
+
+window.addEventListener('scroll', () => {
+  const rect = zone.getBoundingClientRect();
+  const zoneHeight = zone.offsetHeight - window.innerHeight;
+  const scrolled = Math.min(Math.max(-rect.top, 0), zoneHeight);
+  const progress = scrolled / zoneHeight;
+
+  const rotate = progress * 240; // 3 pages
+  book.style.transform = `rotateX(${rotate}deg)`;
+});
+</script>
+
+<a href="https://wa.me/918530869638?text=Hello%20Pixel%20Crafted%2C%20I%20have%20a%20query%20regarding%20Shopify%20website%20development." target="_blank" class="wa-float">💬</a>
+
+</body>
+</html>
